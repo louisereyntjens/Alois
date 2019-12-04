@@ -1,0 +1,109 @@
+/* navbar */
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../images/bars-solid.svg);
+
+}
+.navbar-light .navbar-toggler {
+    color:white;
+border-color:white;
+}
+
+.navbar-nav {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.elementnav{
+font-family: 'Barlow Condensed', sans-serif;
+color:#979BA4;
+font-size: 25px;
+margin-left:40px;
+margin-right:40px;
+text-transform: uppercase;
+}
+.elementnav:hover{
+    text-decoration: underline;
+    text-decoration-color: #9677A0;
+    color:#9677A0;
+}
+.buttoncolor{
+color:#606469;
+background-color: #E4D7E7;  
+font-family: 'Barlow Condensed', sans-serif; 
+width: 180px;
+height: 50px;
+font-size: 25px;
+}
+.buttoncolor:hover {
+    background:#9677A0; 
+    color:white;
+    }
+
+.logo {
+    width: 130px;
+    height: 35px;
+    margin-left: 20px;
+}
+
+/* END ----- navbar */
+
+
+/* homepage */
+
+.container {
+background-image: url(../images/exemple.jpg);
+background-size: contain;
+height: 600px;
+background-repeat: no-repeat;
+margin-top: 100px;
+   
+}
+.titre {
+    font-family: 'Barlow Condensed', sans-serif;    
+    color:#606469;
+    font-size: 100px;;
+    text-align: left;
+    text-transform: uppercase;
+    
+}
+
+.sous-titre {
+    color:#979BA4;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-align: left;  
+    letter-spacing: 5px;
+    text-transform: uppercase; 
+      
+}
+
+.text {
+    font-family: 'Rasa', serif;
+    color:#979BA4;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 2;
+  
+}
+
+@media screen and (min-width: 992px){
+    .titre,
+    .sous-titre,
+    .text {
+        margin-left:700px;
+    }
+    .logo{
+        position:center;
+    }
+ 
+} 
+
+/* END ----- navbar */
+
+/* à propos de nous*/
+.container2 {
+justify-content: center;
+}
+.img-entreprise {
+width:600px;
+height: 600px;
+}
