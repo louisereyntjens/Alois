@@ -56,3 +56,46 @@ margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
 }
+/* Form*/
+.titreform {
+    font-family: 'Barlow Condensed', sans-serif;
+    color:#9677A0;    
+    text-transform: uppercase;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #979BA4;
+    font-style: italic;
+    font-family: 'Rasa', serif;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.text2 {
+    font-family: 'Rasa', serif; 
+    color:grey;
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+}
+.text-muted {
+    color: #ced4da!important;
+    font-family: 'Rasa', serif; 
+
+}
+.btn-primary {
+    color: #fff;
+    background-color: #9677A0;  
+    border-color: #9677A0; 
+    font-family: 'Barlow Condensed', sans-serif; 
+    text-transform: uppercase;
+}
