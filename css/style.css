@@ -48,44 +48,25 @@ font-size: 25px;
 
 /* END ----- navbar */
 
+.yellow-background{
+    background-color:#F8F0E7;
+    height:600px;
+}
 
 /* homepage */
 
 .homepage {
-background-image: url(../images/exemple.jpg);
-background-size: contain;
 height: 600px;
-background-repeat: no-repeat;
 margin-top: 100px;
    
 }
 .titre {
     font-family: 'Barlow Condensed', sans-serif;    
     color:#606469;
-    font-size: 70px;;
+    font-size: 70px;
     text-align: left;
     text-transform: uppercase;
     
-}
-
-.introsmooth {
-    overflow: hidden;
-    white-space: nowrap;
-    width: 265px;
-    border-right: 1px solid #606469;
-    animation: animIntro 3s steps(23, end),
-    animBar 1s step-end infinite;
- 
-}
- 
-@keyframes animIntro {
-    0% {width:0;}
-    100%{width: 265px;}
-}
-
-@keyframes animBar {
-    0%, 100%{ border-color: rgba (0,0,0,0);}
-    50%{border-color: #606469}
 }
 
 .sous-titre {
@@ -103,10 +84,10 @@ margin-top: 100px;
     font-size: 20px;
     text-align: justify;
     line-height: 2;
-    position: absolute;
+
   
 }
-@media screen and (min-width: 992px){
+/*@media screen and (min-width: 992px){
     .titre,
     .sous-titre,
     .text {
@@ -121,29 +102,51 @@ margin-top: 100px;
     }
  
 } 
-.plus-solid {
-    width: 2.5em;
-    height: 2.5em;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    
-}
-.plus-solid:hover {
-    width: 2.5em;
-    height: 2.5em;
-    background-image: url(../images/plus-solid-mauve);
-}
-
+*/
 /* END ----- navbar */
 
 /* à propos de nous*/
-.container2 {
-justify-content: center;
-}
 .img-entreprise {
 width:500px;
 height: 500px;
 float:left;
 }
 
+/*FAQ*/
+
+.sous-titre2 {
+    color:#979BA4;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-align: center;  
+    letter-spacing: 5px;
+    text-transform: uppercase;  
+}
+
+.titre2 {
+    font-family: 'Barlow Condensed', sans-serif;    
+    color:#606469;
+    font-size: 70px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: #E4D7E7;
+}
+.text-faq {
+    font-family: 'Rasa', serif;
+    color:#606469;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.btn-link {
+    font-size:0.8em;
+    color:white;
+    text-decoration: none;
+    font-family: 'Barlow Condensed', sans-serif; 
+}
+.btn-link:hover{
+ color:#9677A0;; 
+}

@@ -48,9 +48,12 @@ font-size: 25px;
 /* END ----- navbar */
 .alois-cmd {
 background-size: contain;
-height: 600px;
+height: 550px;
 background-repeat: no-repeat;
 margin-top: 100px;
+}
+.margin-form{
+    margin-top: 100px;
 }
 .container {
     margin-left: auto;
@@ -86,9 +89,14 @@ margin-top: 100px;
     line-height: 1.5;
     font-size: 1.2rem;
 }
+.text3 {
+    font-family: 'Rasa', serif; 
+    color:rgb(65, 64, 64);
+    line-height: 1.5;
+    font-size: 1.2rem;
 }
 .text-muted {
-    color: #ced4da!important;
+    color: #91979e!important;
     font-family: 'Rasa', serif; 
 
 }
@@ -98,4 +106,7 @@ margin-top: 100px;
     border-color: #9677A0; 
     font-family: 'Barlow Condensed', sans-serif; 
     text-transform: uppercase;
+}
+.text4{
+    font-family: 'Rasa', serif; 
 }
