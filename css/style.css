@@ -112,6 +112,44 @@ height: 500px;
 float:left;
 }
 
+/*NOS PRODUITS*/
+.w-100 {
+    width: 70%!important;
+}
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color:#9677A0;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+.text-produits{
+    font-family: 'Rasa', serif;
+    color:#979BA4;
+    font-size: 20px;
+    text-align: justify;
+
+}
+.margin-produits {
+    margin-top: 100px;
+}
+.icon-produits {
+ height: 55px;
+ 
+}
 /*FAQ*/
 
 .sous-titre2 {
@@ -148,5 +186,9 @@ float:left;
     font-family: 'Barlow Condensed', sans-serif; 
 }
 .btn-link:hover{
- color:#9677A0;; 
+ color:#9677A0; 
+}
+.icon-faq {
+    height: 30px;
+    width: 30px;
 }
